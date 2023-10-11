@@ -1,0 +1,38 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/terra/Desktop/Fall2023/CSE491/Blog/Blog_Range_v3 -B /Users/terra/Desktop/Fall2023/CSE491/Blog/Blog_Range_v3/cmake-build-debug
+-- Found Git: /opt/homebrew/bin/git (found version "2.40.0") 
+-- [range-v3]: C++ std=2a
+-- Performing Test RANGES_HAS_CXXSTD
+-- Performing Test RANGES_HAS_CXXSTD - Success
+-- Performing Test RANGES_HAS_WALL
+-- Performing Test RANGES_HAS_WALL - Success
+-- Performing Test RANGES_HAS_WEXTRA
+-- Performing Test RANGES_HAS_WEXTRA - Success
+-- Performing Test RANGES_HAS_WERROR
+-- Performing Test RANGES_HAS_WERROR - Success
+-- Performing Test RANGES_HAS_FDIAGNOSTIC_SHOW_TEMPLATE_TREE
+-- Performing Test RANGES_HAS_FDIAGNOSTIC_SHOW_TEMPLATE_TREE - Success
+-- Performing Test RANGES_HAS_FTEMPLATE_BACKTRACE_LIMIT
+-- Performing Test RANGES_HAS_FTEMPLATE_BACKTRACE_LIMIT - Success
+-- Performing Test RANGES_HAS_FMACRO_BACKTRACE_LIMIT
+-- Performing Test RANGES_HAS_FMACRO_BACKTRACE_LIMIT - Success
+-- Performing Test RANGES_HAS_NO_INLINE
+-- Performing Test RANGES_HAS_NO_INLINE - Success
+-- Performing Test RANGES_HAS_STACK_PROTECTOR_ALL
+-- Performing Test RANGES_HAS_STACK_PROTECTOR_ALL - Success
+-- Performing Test RANGES_HAS_G3
+-- Performing Test RANGES_HAS_G3 - Success
+-- Performing Test RANGES_HAS_GLLDB
+-- Performing Test RANGES_HAS_GLLDB - Success
+-- Performing Test RANGES_HAS_MARCH_NATIVE
+-- Performing Test RANGES_HAS_MARCH_NATIVE - Success
+-- Performing Test RANGES_HAS_MTUNE_NATIVE
+-- Performing Test RANGES_HAS_MTUNE_NATIVE - Success
+-- Performing Test RANGE_V3_ALIGNED_NEW_PROBE
+-- Performing Test RANGE_V3_ALIGNED_NEW_PROBE - Success
+-- Performing Test RANGES_HAS_FCOROUTINES_TS
+-- Performing Test RANGES_HAS_FCOROUTINES_TS - Success
+-- Performing Test RANGE_V3_HAS_FCONCEPTS
+-- Performing Test RANGE_V3_HAS_FCONCEPTS - Failed
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/terra/Desktop/Fall2023/CSE491/Blog/Blog_Range_v3/cmake-build-debug
