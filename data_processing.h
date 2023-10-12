@@ -1,12 +1,9 @@
+#pragma once
 
-#include <range/v3/all.hpp>
-#ifndef BLOG_RANGE_V3_DATA_PROCESSING_H
-#define BLOG_RANGE_V3_DATA_PROCESSING_H
+#include <string>
+#include <vector>
 
-
-class data_processing {
-
-};
-
-
-#endif //BLOG_RANGE_V3_DATA_PROCESSING_H
+std::vector<std::vector<std::string>> LoadCsv(const std::string& filename);
+std::vector<std::pair<double, double>> DoubleData(const std::vector<std::vector<std::string>>& cardData);
+void Descriptivestats(const std::vector<std::pair<double, double>>& data);
+void SortData(std::vector<std::pair<double, double>>& data);
